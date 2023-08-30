@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+    <script>
+        //Funktion luonti
+        function suodataParilliset(i) {
+            let parillisetLuvut = [];
+        
+        //for of loop käy lävitse taulukon alkio kerrallaan ja jos luku on parillinen lisää sen taulukkoon "parillisetLuvut"    
+            for (let luku of i) {    
+                if (luku % 2 === 0) {
+                    parillisetLuvut.push(luku);
+                }
+            }
+
+            return parillisetLuvut;
+        }
+
+        //luodaan määritetty taulukko ja tulostetaan sisältö konsoliin
+        let luvutTaulukko = [38, 40, 20, 12, 14, 6, 5, 75, 8];
+        console.log("Alkuperäinen taulukko: " + luvutTaulukko);
+
+        //kutsutaan funktiota ja tulostetaan parilliset luvut taulukkona konsoliin
+        let parillisetTaulukko = suodataParilliset(luvutTaulukko);
+        console.log("Parilliset luvut: " + parillisetTaulukko);
+    </script>
+</body>
+</html>
