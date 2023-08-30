@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p   {font-size: 20px;}
+</style>
+</head>
+<body>
+    <h1>JavaScript-taulukon läpikäynti</h1>
+    <p>for- ja for...of-silmukoilla</p>
+    <hr>
+    <p id="otsikko1"></p>
+    <p id="tulos"></p>
+    <p id="otsikko2"></p>
+    <p id="keskiarvo"></p>
+    <p id="molemmat"></p>
+    
+    <script>
+        let taulukko = [11, 22, 33, 44];
+        let summa = 0;
+        let lukumaara = 0;
+        let keskiarvo;
+        let tulosrivit = '';
+
+        //Taulukon alkioiden lukumäärä ja summa laskeminen for of rakenteella
+        for (let luku of taulukko) {
+            summa += luku;
+            lukumaara++;
+        }
+
+        //Lasketaan keskiarvo "keskiarvo" muuttujaan
+        keskiarvo = summa / lukumaara;
+
+        //Muodostetaan muuttujan "tulosrivit" sisältö for loopilla
+        for (let i = 0; i < taulukko.length; i++) {
+            tulosrivit += "taulukko[" + i + "] = " + taulukko[i] + "<br>";
+        }
+
+        //Luodaan muuttuja jonne tallennetaan "summa" sekä "lukumäärä" muuttujien sisältö
+        summaLukumaara = "Lukumäärä: " + lukumaara + "<br>" + "Summa: " + summa + "<br>";
+
+        // Näytetään tulokset HTML-sivulla käyttäen "getElementById.innerHTML" yhdistelmää
+        document.getElementById("otsikko1").innerHTML = "Taulukon alkiot ovat<br>";
+        document.getElementById("tulos").innerHTML = tulosrivit;
+        document.getElementById("otsikko2").innerHTML = "Taulukon alkioiden";
+        document.getElementById("molemmat").innerHTML = summaLukumaara + "Keskiarvo: " + keskiarvo.toFixed(1);
+    </script>
+</body>
+</html>
