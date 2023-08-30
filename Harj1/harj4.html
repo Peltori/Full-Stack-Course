@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+    <script>
+        //Luodaan funktio joka saa parametreina kolme lukua ja näyttää näistä suurimman web-konsoliin
+        function suurinLuku (num1, num2, num3) {
+            let suurin = Math.max(num1, num2, num3);
+            console.log("Suurin luku on:" + suurin);
+        }
+
+        // Määritetään 3 muuttujaa
+        let numero1 = 13;
+        let numero2 = 60;
+        let numero3 = 26;
+
+        // Tulostetaan web-konsoliin muuttujien luvut
+        console.log("Numero 1: " + numero1);
+        console.log("Numero 2: " + numero2);
+        console.log("Numero 3: " + numero3);
+
+        //Kutsutaan funktiota
+        suurinLuku(numero1, numero2, numero3);
+    </script>
+</body>
+</html>
