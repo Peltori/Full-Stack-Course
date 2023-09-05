@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2T1</title>
+    <script>
+        function laskeSumma(a, b) {
+            return parseInt(a) + parseInt(b);
+        }
+
+        function tulostaSumma(a, b) {
+            let summa = laskeSumma(a, b);
+            let div = document.getElementById("results");
+            div.innerHTML = `Summa on ${summa}`;
+        }
+    </script>
+</head>
+<body>
+    <h1>Laske luvut yhteen</h1>
+    <form id="f">
+        <input type=text id="n1"><br>
+        <input type=text id="n2"><br>
+        <button type="button" onclick="tulostaSumma(f.n1.value, f.n2.value)">Laske</button>
+     </form>
+     <div id="results"></div>
+</body>
+</html>
