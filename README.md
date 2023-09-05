@@ -1,6 +1,6 @@
 FullStack-ohjelmointi: Harjoitustehtäväväkirjanpito<br>
 30.8.2023<br>
-Sukunimi Etunimi [AC7995]<br>
+Peltomaa Petri [AC7995]<br>
 Ratkaisut: https://gitlab.labranet.jamk.fi/AC7995/full-stack-ttc2080<br>
 
 Harjoitustehtäväpisteet:   16<br>
