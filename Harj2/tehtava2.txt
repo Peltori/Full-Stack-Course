@@ -1,4 +1,17 @@
 Rivi1: määritellään myFunctionWithCallback - funktio, jolle annetaan 3 parametria
-Rivi2: funktio sisältää callbackin
-rivi5: määritellään myFunc - funktio ns "käyttää" p1 ja p2 parametrien sisältävää dataa ja merkkijonoon lisätään tekstiä sekä p1 ja p2 parametrien sisältävä data
-rivi6: result vakiolle annetaan "myFunctionWithCallback" funktion data
+"p1" "p2" ja callback.
+
+Rivi2: funktio sisältää callbackin eli Funktio palauttaa callback kutstun eli parametrien "p1" ja "p2" tuloksen
+
+rivi5: määritellään myFunc - funktio saa 2 parametria "p1" ja "p2" ja palauttaa merkkijonon jossa "p1" ja p2" liitetään sanan "Pitsa" kanssa yhteen
+
+rivi6: määritellään result vakio ja suoritetaan "myFunctionWithCallback" funktio, jolle annetaan
+"p1" parametriksi sana "kinkulla", "p2" parametriksi sana "juustolla" ja viimeisenä "myFunc" callback parametriksi
+
+rivi7: console.log tulostaa "result" vakion sisältämän datan
+
+eli siis "myFunctionWithCallback" suorittaa "myFunc" funktion antamillaan parametreilla "kinkulla" ja "juustolla"
+jolloin sitten "myFunc" funktio yhdistää parametrit ja tulostaa merkkijonon "Pitsa kinkulla ja juustolla"
+tämä tallennetaan vakioon "result"
+
+console.log(result) sitten tulostaa web-konsoliin muuttujan "result" arvon eli tuon "Pitsa kinkulla ja juustolla"
