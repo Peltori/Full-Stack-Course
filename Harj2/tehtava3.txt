@@ -1,0 +1,45 @@
+
+Rivit 1-5:
+
+Määritellään "print" niminen funktio, joka saa 2 parametriä "str" ja "taskTime"
+"setTimeout" funktio suoritetaan, kun "taskTime" aika on kulunut
+tämä funktio tulostaa "console.log" komennolla web-konsoliin suluissa olevan merkkijonon
+kun funktio "setTimeout" on ajastettu niin se ei odottele ajan kulumista vaan jatkaa suorittamistaan
+mutta kun "taskTime" aika on kulunut funktio suoritetaan ja konsoliin tulostuu "finished!" merkkijonon
+
+Rivit 7-9:
+
+Sitten luodaan funktio nimeltä "execute", jolle annetaan 3 parametria
+"str", "taskTime", "callback" ja funktio välittää parametrit suoraan "callback" funktiolle
+
+Rivit 11-12:
+
+"console.log" komento tulostaa web-konsoliin suluissa olevan merkkijonon "Task1 to execution..."
+sitten kutsutaan "execute" funktiota, suluissa määritetyin parametrein eli funktio suorittaa "print"
+funktion parametreillaan "Task2" sekä ajan 2000 millisekuntia, jolloin "print" funktio tulostaa
+2000 millisekunnin kuluttua tekstin "Task2 finished!"
+
+Rivit 14-15: sekä rivit 17-18:
+
+Toimivat samoin kuin rivit 11-12 paitsi "taskTime" rivillä 18 on 500 millisekuntia
+2000 millisekuntin sijaan
+
+Rivi 20:
+
+Tulostetaan "console.log" komennolla web-konsoliin teksti "Last code line executed!"
+
+Rivi 11, 14- ja 17 tulostetaan heti kun ohjelma ajetaan, koska "print" funktio tulostaa merkkijonon vasta kun execute funktion
+määrittämä aika on kulunut eli ensiksi tulostuu "Task1 to execution..." sitten "Task2 to execution...
+ja kolmantena "Task3 to execution..." jonka jälkeen rivin 20 "console.log" tuloste
+ja sitten 0.5 sekunnin kuluttua tulostuu rivin 17 "console.log" komennon tuloste
+ja tämän jälkeen rivi 12 "console.log" tuloste ja viimeisenä rivin 15 "console.log" tuloste
+
+Näyttää siis tältä web-konsolissa:
+
+"Task1 to execution..."
+"Task2 to execution..."
+"Task3 to execution..."
+"Last code line executed!"
+"Task3 finished!"
+"Task1 finished!"
+"Task2 finished!"
