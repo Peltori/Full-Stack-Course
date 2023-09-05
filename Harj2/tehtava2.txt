@@ -1,0 +1,4 @@
+Rivi1: määritellään myFunctionWithCallback - funktio, jolle annetaan 3 parametria
+Rivi2: funktio sisältää callbackin
+rivi5: määritellään myFunc - funktio ns "käyttää" p1 ja p2 parametrien sisältävää dataa ja merkkijonoon lisätään tekstiä sekä p1 ja p2 parametrien sisältävä data
+rivi6: result vakiolle annetaan "myFunctionWithCallback" funktion data
