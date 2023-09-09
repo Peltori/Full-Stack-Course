@@ -6,10 +6,30 @@
     <title>H2T4</title>
 </head>
 <body>
+    <div id="messages"></div>
+    
     <script>
-        
+        // Funktio lisää viestin div-elementtiin
+        function addMessage(message) {
+            const messagesDiv = document.getElementById('messages');
+            const newMessage = document.createElement('p');
+            newMessage.textContent = message;
+            messagesDiv.appendChild(newMessage);
+        }
 
-        
+        // Aluksi näytetään ensimmäinen viesti
+        addMessage("OMG - Lady Gaga start singing!");
+
+        // Lisätään ilotulitustekstit
+        const fireworksInterval = setInterval(function() { //setInterval metodia käyttäen saadaan kutsuttua aiemmin määriteltyä fuktiota
+            addMessage("NICE - fireworks!"); //Määritetään funktion parametrille "message" suluissa oleva teksti
+        }, 5000); // Tässä lisätään viesti joka 5 sekunti, voi itse muuttaa tarpeen mukaan
+
+        // Ajan kuluttua lisätään lopetusviesti
+        setTimeout(function() {
+            clearInterval(fireworksInterval); // Lopetetaan ilotulitustekstien lisääminen
+            addMessage("WOW - It was the best concert in my life...");
+        }, 30000); // 30 sekunnin kuluttua, tässä voi taas itse muuttaa aikaa
     </script>
 </body>
 </html>

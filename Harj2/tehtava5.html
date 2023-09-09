@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2T5</title>
+</head>
+<body>
+    <script>
+        // Määritellään Person-funktio, joka luo henkilö-olion
+        function Person(name, age, phone, email) {
+        this.name = name;
+        this.age = age;
+        this.phone = phone;
+        this.email = email;
+
+        // Metodi, joka kasvattaa iän yhdellä
+        this.increaseAge = function () {
+            this.age++;
+        };
+        }
+
+        // Luodaan kolme eri henkilö-oliota
+        const person1 = new Person("Matti", 10, "040-969-2545", "matti.heppunen@gmail.com");
+        const person2 = new Person("Liisa", 90, "040-857-2354", "liisa.hämäläinen@gmail.com");
+        const person3 = new Person("Pekka", 40, "040-564-4878", "pekka.holopainen@hotmail.com");
+
+        // Tulostetaan olioiden alkuperäiset tiedot web-konsoliin
+        console.log("Alkuperäiset tiedot:");
+        console.log(person1);
+        console.log(person2);
+        console.log(person3);
+        
+        //Kasvatetaan olioiden ikää yhdellä
+        person1.increaseAge();
+        person2.increaseAge();
+        person3.increaseAge();
+        
+        //Tulostetaan olioiden muuttuneet tiedot web-konsoliin
+        console.log("\nTiedot iän kasvattamisen jälkeen:");
+        console.log(person1);
+        console.log(person2);
+        console.log(person3);
+    </script>
+</body>
+</html>
