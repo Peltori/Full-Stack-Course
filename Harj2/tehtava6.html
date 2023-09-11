@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            width: 200px;
+            margin: auto;
+        }
+        .box {
+            border: 1px dashed #000;
+            padding: 15px;
+            background-color: #adbed8;
+            margin-top: 15px;
+        }
+        input[type="text"] {
+            width: 60px;
+        }
+        button {
+            background-color: #069;
+            border-radius: 5px;
+            color: #fff;
+            margin-bottom: 5px;
+            margin-top: 15px;
+            padding: 5px 15px;
+            border: none;
+        }
+        h3 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Vauhtilaskin</h3>
+    <div class="box">
+        <form id="f">
+            <table>
+                <tbody>
+                    <tr><td>Tunnit: </td><td><input type="text" id="hour" placeholder="1" value="1"></td></tr>
+                    <tr><td>Minuutit: </td><td><input type="text" id="min" placeholder="20" value="20"></td></tr>
+                    <tr><td>Sekunnit: </td><td><input type="text" id="sec" placeholder="0" value="0"></td></tr>
+                    <tr><td>Kilometrit:</td><td><input type="text" id="km" placeholder="0" value="10"></td></tr>
+                </tbody>
+            </table>
+            <button type="button" id="calculateButton">Laske Vauhti</button>
+        </form>
+    </div>
+
+    <div class="box" id="resultBox">
+        <h4>Tulos:</h4>
+        <p>Vauhti: <span id="result"></span> km/h</p>
+    </div>
+
+    <script>
+        class Vauhtilaskin {
+            constructor(h, min, sec, km) {
+                this.h = h;
+                this.min = min;
+                this.sec = sec;
+                this.km = km;
+            }
+
+            calcKmhPace() {
+                var tunnit = parseInt(this.h) + (parseInt(this.min) * 60 + parseInt(this.sec)) / 3600;
+                var tulos = this.km / tunnit;
+                tulos = tulos.toFixed(2);
+                return tulos;
+            }
+
+            kmhpace() {
+                return this.calcKmhPace();
+            }
+        }
+
+        const calculateButton = document.getElementById("calculateButton");
+        const resultBox = document.getElementById("resultBox");
+        const resultElement = document.getElementById("result");
+
+        calculateButton.addEventListener("click", () => {
+            const tunnit = document.getElementById("hour").value;
+            const min = document.getElementById("min").value;
+            const sec = document.getElementById("sec").value;
+            const km = document.getElementById("km").value;
+
+            const laskin = new Vauhtilaskin(tunnit, min, sec, km);
+            const vauhti = laskin.kmhpace();
+
+            resultElement.textContent = vauhti;
+            resultBox.style.display = "block";
+        });
+    </script>
+</body>
+</html>
