@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H3T1</title>
+    <script>
+        function changeImage(number) {
+            //console.log(`changeImage: ${number}`);
+            let image = document.getElementById("image");
+            image.src = `maisema${number}.jpg`;
+        }
+    </script>
+</head>
+<body>
+    <p>
+        <button onclick="changeImage(1)">1</button>
+        <button onclick="changeImage(2)">2</button>
+        <button onclick="changeImage(3)">3</button>
+    </p>
+
+    <p>
+        <img id="image" src="maisema1.jpg">
+    </p>
+</body>
+</html>
