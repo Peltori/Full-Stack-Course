@@ -20,15 +20,12 @@
         var ul = document.getElementById("hcplist");
 
         button.addEventListener("click", function () {
-            // Tyhjennetään lista, jotta tuloksia ei lisätä uudelleen
-            //ul.innerHTML = "";
-
+            
             // Käydään läpi hcpdata-taulukko ja lisätään tasoitukset listaan
-            for (i = 0; i < hcpdata.length; i++) {
-                var player = hcpdata[i];
-                var li = document.createElement("li"); //Luodaan "li" elementti
-                li.textContent = player.name + " " + player.hcp; // DOM text solmun sisään laitettava teksti
-                ul.appendChild(li); // Kiinnitetään "li" elementti "ul" elementtin sisään, jotte se näkyy käyttäjälle
+            for (var player of hcpdata) {
+                var li = document.createElement("li");
+                li.textContent = player.name + " " + player.hcp;
+                ul.appendChild(li);
             }
 
             // Poistetaan painikkeelta klikattavuus
