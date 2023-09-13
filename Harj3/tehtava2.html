@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <title>H3T2</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H3T2</title>
-
-<script>
-var hcpdata = [{ "name": "Ari", "hcp": 54 },
-               { "name": "Pasi", "hcp": 5 },
-               { "name": "Seppo", "hcp": 20 }];
-</script>
-
 </head>
 <body>
-    <button>Tulosta tasoitukset</button>
+    <button id="tulostaButton">Tulosta tasoitukset</button>
     <ul id="hcplist"></ul>
+
+    <script>
+        var hcpdata = [
+            { "name": "Ari", "hcp": 54 },
+            { "name": "Pasi", "hcp": 5 },
+            { "name": "Seppo", "hcp": 20 }
+        ];
+
+        var button = document.getElementById("tulostaButton");
+        var ul = document.getElementById("hcplist");
+
+        button.addEventListener("click", function () {
+            // Tyhjennetään lista, jotta tuloksia ei lisätä uudelleen
+            //ul.innerHTML = "";
+
+            // Käydään läpi hcpdata-taulukko ja lisätään tasoitukset listaan
+            for (i = 0; i < hcpdata.length; i++) {
+                var player = hcpdata[i];
+                var li = document.createElement("li"); //Luodaan "li" elementti
+                li.textContent = player.name + " " + player.hcp; // DOM text solmun sisään laitettava teksti
+                ul.appendChild(li); // Kiinnitetään "li" elementti "ul" elementtin sisään, jotte se näkyy käyttäjälle
+            }
+
+            // Poistetaan painikkeelta klikattavuus
+            button.disabled = true;
+        });
+    </script>
 </body>
 </html>
