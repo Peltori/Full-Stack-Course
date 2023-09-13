@@ -15,10 +15,10 @@ Harj1Teht5: 4/4p<br>
 Harj1Teht6: 4/4p<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-Harj1Teht1: 4/4p<br>
-Harj1Teht2: 4/4p<br>
-Harj1Teht3: 4/4p<br>
-Harj1Teht4: 4/4p<br>
-Harj1Teht5: 4/4p<br>
-Harj1Teht6: 6/6p<br>
+Harj2Teht1: 4/4p<br>
+Harj2Teht2: 4/4p<br>
+Harj2Teht3: 4/4p<br>
+Harj2Teht4: 4/4p<br>
+Harj2Teht5: 4/4p<br>
+Harj2Teht6: 6/6p<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
