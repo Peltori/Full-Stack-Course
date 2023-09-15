@@ -22,3 +22,11 @@ Harj2Teht4: 4/4p<br>
 Harj2Teht5: 4/4p<br>
 Harj2Teht6: 6/6p<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Harj3Teht1: 4/4p<br>
+Harj3Teht2: 4/4p<br>
+Harj3Teht3: 4/4p<br> 
+Harj2Teht4: 0/4p  -- Kesken<br>
+Harj2Teht5: 0/4p  -- Kesken<br>
+Harj2Teht6: 0/6p  -- Kesken<br>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
