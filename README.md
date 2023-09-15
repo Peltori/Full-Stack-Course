@@ -3,9 +3,9 @@ FullStack-ohjelmointi: Harjoitustehtäväväkirjanpito<br>
 Peltomaa Petri [AC7995]<br>
 Ratkaisut: https://gitlab.labranet.jamk.fi/AC7995/full-stack-ttc2080<br>
 
-Harjoitustehtäväpisteet:   42<br>
+Harjoitustehtäväpisteet:   60<br>
 Kaikki tarjolla olleet harjoitustehtäväpisteet:   164<br>
-42/164 = >  %<br>
+60/164 = >  %<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj1Teht1: 2/2p<br>
 Harj1Teht2: 2/2p<br>
@@ -26,7 +26,7 @@ Harj2Teht6: 6/6p<br>
 Harj3Teht1: 4/4p<br>
 Harj3Teht2: 4/4p<br>
 Harj3Teht3: 4/4p<br> 
-Harj2Teht4: 0/4p  -- Kesken<br>
+Harj2Teht4: 6/6p<br>
 Harj2Teht5: 0/4p  -- Kesken<br>
 Harj2Teht6: 0/6p  -- Kesken<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
