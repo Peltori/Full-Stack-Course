@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H3T3</title>
+    <style>
+        .task {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+
+    <span class="task">T1
+        <input style="margin-top: 5px;" type="text" class="number" size="5" placeholder="0" onblur="calculate()">
+    </span>
+    <br>
+    <span class="task">T2
+        <input style="margin-top: 5px;" type="text" class="number" size="5" placeholder=0 onblur="calculate()">
+    </span>
+    <br>
+    <span class="task">T3
+        <input style="margin-top: 5px;" type="text" class="number" size="5" placeholder=0 onblur="calculate()">
+    </span>
+    <br>
+    <span class="task">T4
+        <input style="margin-top: 5px;" type="text" class="number" size="5" placeholder=0 onblur="calculate()">
+    </span>
+
+    <p id="sum">Pistemäärä (summa): <span id="sumValue">0</span></p>
+    <p id="grade">Arvosana: <span id=gradeValue>-</span></p>
+
+    <script>
+        // Funktio laskee input kenttään syötetyt numerot yhteen
+        function calculate() {
+            let inputs = document.getElementsByClassName("number");
+            let sum = 0;
+            let errorMsg = false;
+            //for of looppi tarkistaa onko syötettu arvo luku ja ei hyväksy negatiivisia lukuja
+            for (let input of inputs) {
+                let inputValue = parseInt(input.value);
+                
+                if (!isNaN(inputValue) && inputValue >= 0 && inputValue <= 6) { //Tarkistetaan onko annettu arvo luku ja onko luku 0-6 välillä
+                        sum += inputValue;
+                } else {
+                    errorMsg = true;
+                    break; //Jos annettu luku ei ole välillä 0-6 tai luku on negatiivinen niin katkaistaan looppi
+                }
+            }
+            
+            // Ilmoitetaan Pistemäärä ja Arvosana kenttiin ilmoitus "VIRHE!"
+            if (errorMsg) {
+                document.getElementById("sumValue").textContent = "VIRHE!";
+                document.getElementById("gradeValue").textContent = "VIRHE!";
+            } else {
+                document.getElementById("sumValue").textContent = sum; // "sum" muuttujan arvo <p> elementin tekstikenttään "Pistemäärä"
+                document.getElementById("gradeValue").textContent = calculateGrade(sum); // "calculateGrade" funktion laskema Arvosana <p> elementin tekstikenttään "Arvosana"
+            }
+        }
+        // Säännöt arvosanan annolle
+        function calculateGrade(points) {
+            if (points >= 22 && points <= 24) {
+                return "5";
+            } else if (points >= 20 && points <= 21) {
+                return "4";
+            } else if (points >= 18 && points <= 19) {
+                return "3";
+            } else if (points >= 16 && points <= 17) {
+                return "2";
+            } else if (points >= 13 && points <= 15) {
+                return "1";
+            } else if (points >= 0 && points <= 12) {
+                return "0"
+            } else {
+                return "-"
+            }
+        }
+    </script>
+
+</body>
+</html>
