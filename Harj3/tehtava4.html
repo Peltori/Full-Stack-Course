@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H3T4</title>
+</head>
+<body>
+    <h3>SimpleToDo</h3>
+    <div class="box">
+        <span>ToDo:</span>
+            <form id="toDolist">
+                <input type="text" id="input" placeholder="Type text here">
+                <br>
+                <br>
+                <button type="button" id="addTask">Lisää</button>
+                <button type="button" id="emptyList">Tyhjää lista</button>
+                <ul id="taskList"></ul>
+            </form>
+    </div>
+
+    <script>
+        // Määritetään painikkeet muuttujiin id:n perusteella
+        taskbutton = document.getElementById("addTask");
+        emptylistButton = document.getElementById("emptyList");
+        
+        let ul = document.getElementById("taskList");
+
+        // Listätään tehtävä listään kun painetaan "Lisää" painiketta
+        taskbutton.addEventListener("click", function () {
+            let text = document.getElementById("input").value;
+            let li = document.createElement("li");
+            li.innerText = text;
+            
+            // Lisätään EventListener li-elementille
+            li.addEventListener("click", function () {
+                li.remove();
+            });
+            
+            ul.appendChild(li);
+        });
+
+        // Tyhjätään koko lista kun painetaan "Tyhjää lista" painiketta
+        emptylistButton.addEventListener("click", function () {
+            let list = document.getElementById("taskList");
+            // jos listassa on child nodeja -> poista ensimmäinen
+            while (list.hasChildNodes()) {
+            list.removeChild(list.firstChild);
+            }
+        });
+
+        /*  Lisätään tehtävien poisto kun klikataan jotakin tehtävää hiirellä, tämä ei toimi vaan yllä on oikea ratkaisu
+            Jätän tämän tänne muistiin tulevaisuuden varalta...
+
+        const collection = document.getElementById("li");
+            collection.addEventListener("click", function () {
+                collection.remove;
+            })
+        */
+    </script>
+</body>
+</html>
