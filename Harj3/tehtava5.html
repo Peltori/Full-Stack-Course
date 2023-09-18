@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juhlasovellus</title>
+    <style>
+        #tulosalue {
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+            text-align: left;
+            font-size: 20px;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Valitse juhlaväri:</h1>
+    <select id="varivalinta">
+        <option value="punainen">Punainen</option>
+        <option value="sininen">Sininen</option>
+        <option value="vihreä">Vihreä</option>
+        <option value="keltainen">Keltainen</option>
+    </select>
+    <br><br>
+    <h2>Mikä Juhla?</h2>
+    <input type="text" id="tekstikentta">
+    <button id="vaihdaVari">Vaihda valittu taustaväri</button>
+    <br><br>
+    <div id="tulosalue">
+        <h3>Tulosalue</h3>
+        <div id="valittuVariTeksti">
+            Valittu väri: <span id="valittuVariKoodi"></span>
+        </div>
+        <br>        
+        <div id="valittuJuhla"></div>
+    </div>
+
+    <script>
+        // Luodaan vakio muuttujat "getElementById" avulla
+        const varivalinta = document.getElementById("varivalinta");
+        const tekstikentta = document.getElementById("tekstikentta");
+        const tulosalue = document.getElementById("tulosalue");
+        const vaihdaVariButton = document.getElementById("vaihdaVari");
+        const valittuVariKoodi = document.getElementById("valittuVariKoodi");
+        const valittuJuhla = document.getElementById("valittuJuhla");
+
+        // Määritetään värit muuttujiin
+        const varit = {
+            punainen: "#ff0000",
+            sininen: "#0000ff",
+            vihreä: "#00ff00",
+            keltainen: "#ffff00"
+        };
+
+        // Lisätään tapahtumakuuntelija väriä vaihtavalle napille
+        vaihdaVariButton.addEventListener("click", () => {
+            const valittuVari = varivalinta.value;
+            tulosalue.style.backgroundColor = varit[valittuVari];
+            valittuVariKoodi.textContent = varit[valittuVari];
+        });
+
+        // Lisätään tapahtumakuuntelija tekstikentälle
+        tekstikentta.addEventListener("input", () => {
+            // Tarkistetaan, että tekstikenttään ei ole syötetty numeroita "isNAN" metodia käyttämällä
+            const teksti = tekstikentta.value;
+            if (isNaN(teksti)) {
+                // Asetetaan teksti "div id=valittuJuhla" elementtin text solmuun
+                valittuJuhla.textContent = teksti;
+            } else {
+                alert("Tekstikenttään ei hyväksytä numeroita.");
+            }
+        });
+
+        // Lisätään tapahtumakuuntelija valinnan vaihtumiselle
+        varivalinta.addEventListener("change", () => {
+            const valittuVari = varivalinta.value;
+            valittuVariKoodi.textContent = varit[valittuVari];
+        });
+    </script>
+</body>
+</html>
