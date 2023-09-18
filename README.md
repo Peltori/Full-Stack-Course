@@ -26,6 +26,6 @@ Harj2Teht6: 6/6p<br>
 Harj3Teht1: 4/4p<br>
 Harj3Teht2: 4/4p<br>
 Harj3Teht3: 4/4p<br> 
-Harj2Teht4: 6/6p<br>
-Harj2Teht5: 6/6p<br>
+Harj3Teht4: 6/6p<br>
+Harj3Teht5: 6/6p<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
