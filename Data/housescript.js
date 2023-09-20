@@ -38,7 +38,7 @@ async function renderHouses() {
         // create p element as houseSize
         let houseSize = document.createElement("p");
         houseSize.className = "houseSize";
-        let houseSizeText = document.createTextNode(house.size);
+        let houseSizeText = document.createTextNode(house.size + " m2");
         houseSize.appendChild(houseSizeText);
         
         // create p element as description
@@ -50,7 +50,7 @@ async function renderHouses() {
         // create p element as price
         let price = document.createElement("p");
         price.className = "price";
-        let priceText = document.createTextNode(house.price);
+        let priceText = document.createTextNode(house.price + " euroa");
         price.appendChild(priceText);
         
         // add created elements to container
