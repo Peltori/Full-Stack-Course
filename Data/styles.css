@@ -4,28 +4,28 @@
     float: left;
     overflow-y: auto;
     margin: 10px;
-    }
-    .houseContainer {
+}
+.houseContainer {
     display: block;
-    border: 1px gray;
+    border: 1px solid gray;
     width: 570px;
     height: 165px; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin: 2px;
     padding: 2px;
-    }
-    .houseImage {
+}
+.houseImage {
     width: 225px;
     height: 160px;
     float: left;
     margin: 2px;
-    }
-    p.header {
+}
+p.header {
     font-size: 14px;
     font-weight: bold;
-    }
-    p.description {
+}
+p.description {
     font-style: italic;
     font-size: 10px;
-    }
+}

@@ -29,8 +29,6 @@ async function renderHouses() {
     let sizeLabel = document.createElement("label");
     sizeLabel.htmlFor = "under-200m2";
     sizeLabel.textContent = "Alle 200m2";
-    sortDiv.appendChild(sizeCheckbox);
-    sortDiv.appendChild(sizeLabel);
 
     //addu under 1 000 000 euro
     let priceCheckbox = document.createElement("input");
@@ -41,6 +39,10 @@ async function renderHouses() {
     let priceLabel = document.createElement("label");
     priceLabel.htmlFor = "under-1000000";
     priceLabel.textContent = "Alle 1 000 000 €";
+    
+    sortDiv.appendChild(sizeCheckbox);
+    sortDiv.appendChild(sizeLabel);
+    sortDiv.appendChild(document.createElement("br"));
     sortDiv.appendChild(priceCheckbox);
     sortDiv.appendChild(priceLabel);
 
