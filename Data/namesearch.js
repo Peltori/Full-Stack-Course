@@ -29,6 +29,10 @@ async function renderNames() {
         namediv.removeChild(namediv.firstChild);
     }
 
+    if (searchText === "") {
+        return; // Do not show any results if search
+    }
+
     // loop through JSON data
     names.forEach(name => {
         let lowerCaseName = name.toLowerCase();
@@ -63,9 +67,11 @@ function handleKeyPress(event) {
         let selectedNameElement = document.querySelector(".person.selected");
         if (selectedNameElement) {
             document.getElementById("nameInput").value = selectedNameElement.textContent;
-            document.getElementById("nameSpace").textContent = ""; // Tyhjennä hakutulokset
+            document.getElementById("nameSpace").textContent = ""; // Empty text content
         }
     }
+
+    highlightSelectedName();
 }
 
 function highlightSelectedName() {
@@ -78,3 +84,5 @@ function highlightSelectedName() {
         }
     });
 }
+
+let selectedNameIndex = -1;
