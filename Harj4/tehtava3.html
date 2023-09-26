@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H4T3</title>
+    <script type="text/javascript" src="/Data/namesearch.js"></script>
+    <!-- <link rel="stylesheet" href="/Data/styles.css"> -->
+    <style>
+    .selected {
+    background-color: rgb(108, 60, 139) !important; /* Aseta taustaväri keltaiseksi */
+    color: rgb(89, 226, 9) !important; /* Aseta tekstiväri mustaksi tai tarpeen mukaan */
+    }
+    body {
+    margin: 20px;
+    background-color: blanchedalmond;
+    }
+    </style>
+</head>
+<body onload="init()">
+    <h1>Fetch API - Search Form</h1>
+        <div id="formContainer">
+            <form id="nameSearch">
+                <input type="text" id="nameInput" placeholder="Search for name">
+                <div id="nameSpace"></div>
+            </form>
+        </div>
+</body>
+</html>
