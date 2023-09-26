@@ -50,7 +50,8 @@ async function renderHouses() {
         // create p element as price
         let price = document.createElement("p");
         price.className = "price";
-        let priceText = document.createTextNode(house.price + " euroa");
+        let formattedPrice = new Intl.NumberFormat('fi-FI').format(house.price);
+        let priceText = document.createTextNode(formattedPrice);
         price.appendChild(priceText);
         
         // add created elements to container
