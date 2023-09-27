@@ -30,7 +30,7 @@ async function renderNames() {
     }
 
     if (searchText === "") {
-        return; // Do not show any results if search
+        return; // Do not show any results if input empty
     }
 
     // loop through JSON data
