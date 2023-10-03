@@ -30,13 +30,14 @@ Harj3Teht4: 6/6p<br>
 Harj3Teht5: 6/6p<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-Harj3Teht1: 6/6p<br>
-Harj3Teht2: 6/6p<br>
-Harj3Teht3: 0/10p<br> -- Kesken<br> 
+Harj4Teht1: 6/6p<br>
+Harj4Teht2: 6/6p<br>
+Harj4Teht3: 0/10p<br> -- Kesken<br> 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-Harj3Teht1: 2/2p<br>
-Harj3Teht2: 4/4p<br>
-Harj3Teht3: 4/4p<br> -- Kesken<br> 
+Harj5Teht1: 2/2p<br>
+Harj5Teht2: 4/4p<br>
+Harj5Teht3: 4/4p<br>
+Harj5Teht4: 0/6p<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
