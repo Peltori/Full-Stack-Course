@@ -32,13 +32,13 @@ Harj3Teht5: 6/6p<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj4Teht1: 6/6p<br>
 Harj4Teht2: 6/6p<br>
-Harj4Teht3: 0/10p<br> -- Kesken<br> 
+Harj4Teht3: 0/10p<br> - Kesken<br> 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj5Teht1: 2/2p<br>
 Harj5Teht2: 4/4p<br>
-Harj5Teht3: 4/4p<br> -- Tämä oli hieman haastava, että miten saan luvut muutettua stringistä numeroiksi ja laskettua ne sitten yhteen. Tykkäsin kyllä tehtävästä <br>
-Harj5Teht4: 6/6p<br> -- Tämä oli mielenkiintoinen tehtävä<br>
+Harj5Teht3: 4/4p<br> - Tämä oli hieman haastava, että miten saan luvut muutettua stringistä numeroiksi ja laskettua ne sitten yhteen. Tykkäsin kyllä tehtävästä <br>
+Harj5Teht4: 6/6p<br> - Tämä oli mielenkiintoinen tehtävä<br>
 
 Mielestäni kaikki Harj5 tehtävät olivat mielekkäitä tehdä, tietysti tuo ensimmäinen oli aika helppo alustus tähän node.js hommaan mikä siis ihan ookoo sekin <br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
