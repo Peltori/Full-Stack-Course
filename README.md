@@ -6,40 +6,40 @@ Ratkaisut: https://gitlab.labranet.jamk.fi/AC7995/full-stack-ttc2080<br>
 Harjoitustehtäväpisteet:   94<br>
 Kaikki tarjolla olleet harjoitustehtäväpisteet:   164<br>
 94/164 = >  57,3%<br>
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj1Teht1: 2/2p<br>
 Harj1Teht2: 2/2p<br>
 Harj1Teht3: 2/2p<br>
 Harj1Teht4: 2/2p<br>
 Harj1Teht5: 4/4p<br>
 Harj1Teht6: 4/4p<br>
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj2Teht1: 4/4p<br>
 Harj2Teht2: 4/4p<br>
 Harj2Teht3: 4/4p<br>
 Harj2Teht4: 4/4p<br>
 Harj2Teht5: 4/4p<br>
 Harj2Teht6: 6/6p<br>
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj3Teht1: 4/4p<br>
 Harj3Teht2: 4/4p<br>
 Harj3Teht3: 4/4p<br> 
 Harj3Teht4: 6/6p<br>
 Harj3Teht5: 6/6p<br>
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj4Teht1: 6/6p<br>
 Harj4Teht2: 6/6p<br>
 Harj4Teht3: 0/10p<br> - Kesken<br> 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj5Teht1: 2/2p<br>
 Harj5Teht2: 4/4p<br>
 Harj5Teht3: 4/4p<br> - Tämä oli hieman haastava, että miten saan luvut muutettua stringistä numeroiksi ja laskettua ne sitten yhteen. Tykkäsin kyllä tehtävästä <br>
 Harj5Teht4: 6/6p<br> - Tämä oli mielenkiintoinen tehtävä<br>
 
 Mielestäni kaikki Harj5 tehtävät olivat mielekkäitä tehdä, tietysti tuo ensimmäinen oli aika helppo alustus tähän node.js hommaan mikä siis ihan ookoo sekin <br>
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
