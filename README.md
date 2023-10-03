@@ -3,9 +3,9 @@ FullStack-ohjelmointi: Harjoitustehtäväväkirjanpito<br>
 Peltomaa Petri [AC7995]<br>
 Ratkaisut: https://gitlab.labranet.jamk.fi/AC7995/full-stack-ttc2080<br>
 
-Harjoitustehtäväpisteet:   88<br>
+Harjoitustehtäväpisteet:   94<br>
 Kaikki tarjolla olleet harjoitustehtäväpisteet:   164<br>
-88/164 = >  47,5%<br>
+94/164 = >  57,3%<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj1Teht1: 2/2p<br>
 Harj1Teht2: 2/2p<br>
@@ -37,7 +37,9 @@ Harj4Teht3: 0/10p<br> -- Kesken<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj5Teht1: 2/2p<br>
 Harj5Teht2: 4/4p<br>
-Harj5Teht3: 4/4p<br>
-Harj5Teht4: 0/6p<br>
+Harj5Teht3: 4/4p<br> -- Tämä oli hieman haastava, että miten saan luvut muutettua stringistä numeroiksi ja laskettua ne sitten yhteen. Tykkäsin kyllä tehtävästä <br>
+Harj5Teht4: 6/6p<br> -- Tämä oli mielenkiintoinen tehtävä<br>
+
+Mielestäni kaikki Harj5 tehtävät olivat mielekkäitä tehdä, tietysti tuo ensimmäinen oli aika helppo alustus tähän node.js hommaan mikä siis ihan ookoo sekin <br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
