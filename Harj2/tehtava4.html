@@ -21,14 +21,14 @@
         addMessage("OMG - Lady Gaga start singing!");
 
         // Lisätään ilotulitustekstit
-        const fireworksInterval = setInterval(function() { //setInterval metodia käyttäen saadaan kutsuttua aiemmin määriteltyä fuktiota
+        const fireworksInterval = setInterval(function() { //setInterval metodia käyttäen saadaan kutsuttua aiemmin määriteltyä fuktiota tietyn intervallin välein
             addMessage("NICE - fireworks!"); //Määritetään funktion parametrille "message" suluissa oleva teksti
         }, 5000); // Tässä lisätään viesti joka 5 sekunti, voi itse muuttaa tarpeen mukaan
 
         // Ajan kuluttua lisätään loppuviesti
         setTimeout(function() {
-            clearInterval(fireworksInterval); // Lopetetaan ilotulitustekstien lisääminen
-            addMessage("WOW - It was the best concert in my life...");
+            clearInterval(fireworksInterval); // Lopetetaan ilotulitustekstien lisääminen, tämä lopettaa funktion "assMessage" kutsumisen joka määritetteiin yläpuolella
+            addMessage("WOW - It was the best concert in my life..."); // Lisätään loppuviesti mahtavalle konsertille
         }, 30000); // 30 sekunnin kuluttua, tässä voi taas itse muuttaa aikaa
     </script>
 </body>
