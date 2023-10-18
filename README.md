@@ -5,7 +5,7 @@ Ratkaisut: https://gitlab.labranet.jamk.fi/AC7995/full-stack-ttc2080<br>
 
 Harjoitustehtäväpisteet:   94<br>
 Kaikki tarjolla olleet harjoitustehtäväpisteet:   164<br>
-94/164 = >  57,3%<br>
+109/164 = >  66,4%<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj1Teht1: 2/2p<br>
 Harj1Teht2: 2/2p<br>
