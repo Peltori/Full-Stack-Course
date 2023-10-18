@@ -42,4 +42,7 @@ Harj5Teht4: 6/6p<br> - Tämä oli mielenkiintoinen tehtävä<br>
 
 Mielestäni kaikki Harj5 tehtävät olivat mielekkäitä tehdä, tietysti tuo ensimmäinen oli aika helppo alustus tähän node.js hommaan mikä siis ihan ookoo sekin <br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Harj6Teht1: 10/10p<br> - Kiva tehtävä josta oppii kun ei pelkästään kopioi kaikkea vaan ottaa selvää jos on joku metodi mitä ei ymmärrä ja linkit auttoivat asiaan kyllä myös <br>
+Harj6Teht2: 5/5p<br> - Tämä loggauksien tallentaminen on itelle jotenkin mielenkiintoista ja se, että näkee mitä jokin applikaatio/ohjelma tekee taustalla <br>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
