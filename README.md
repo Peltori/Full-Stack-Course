@@ -5,7 +5,7 @@ Ratkaisut: https://gitlab.labranet.jamk.fi/AC7995/full-stack-ttc2080<br>
 
 Harjoitustehtäväpisteet:   94<br>
 Kaikki tarjolla olleet harjoitustehtäväpisteet:   164<br>
-109/164 = >  66,4%<br>
+119/164 = >  72,5%<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj1Teht1: 2/2p<br>
 Harj1Teht2: 2/2p<br>
@@ -45,4 +45,9 @@ Mielestäni kaikki Harj5 tehtävät olivat mielekkäitä tehdä, tietysti tuo en
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj6Teht1: 10/10p<br> - Kiva tehtävä josta oppii kun ei pelkästään kopioi kaikkea vaan ottaa selvää jos on joku metodi mitä ei ymmärrä ja linkit auttoivat asiaan kyllä myös <br>
 Harj6Teht2: 5/5p<br> - Tämä loggauksien tallentaminen on itelle jotenkin mielenkiintoista ja se, että näkee mitä jokin applikaatio/ohjelma tekee taustalla <br>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Harj7Teht1: 5/5p<br> -  <br>
+Harj7Teht2: 5/5p<br> -  <br>
+Harj/Teht3: 10/10p<br> -  <br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
