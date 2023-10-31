@@ -54,27 +54,24 @@ const logger = (request, response, next) => {
 // use logger middleware in express app
 app.use(logger);
 
-// define endpoint
-app.get('/users', (request, response) => {
+// get all users
+app.get('/users', async (request, response) => {
+    const users = await User.find({})
     response.json(users)
 });
 
-app.get('/users/:id', (request, response) => {
-    //const id = request.params.id // note how you can do this in different ways!
-    const { id } = request.params
-    const user = users.find(user => user.id === id)
-    // check if user exists or return exit code 404
-    if (user) response.json(user)
-    else response.status(404).end()
+// get one user
+app.get('/users/:id', async (request, response) => {
+    const user = await User.findById(request.params.id);
+    if (user) response.json(user);
+    else response.status(404).end();
 });
 
 // delete one user
-app.delete('/users/:id', (request, response) => {
-    //const id = request.params.id
-    const { id } = request.params;
-    users = users.filter(user => user.id !== id);
-    // Just send "204 no content" status code back
-    response.status(204).end();
+app.delete('/users/:id', async (request, response) => {
+    const deletedUser = await User.findByIdAndRemove(request.params.id);
+    if (deletedUser) response.json(deletedUser);
+    else response.status(404).end();
 });
 
 // update user data
@@ -103,7 +100,7 @@ app.post('/users', async (request, response) => {
     });
   
     // Save to db and send back to caller
-    const savedUser = await user.insertOne()
+    const savedUser = await user.save()
     response.json(savedUser)  
 });
 
