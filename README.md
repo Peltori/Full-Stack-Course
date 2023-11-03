@@ -3,9 +3,9 @@ FullStack-ohjelmointi: Harjoitustehtäväväkirjanpito<br>
 Peltomaa Petri [AC7995]<br>
 Ratkaisut: https://gitlab.labranet.jamk.fi/AC7995/full-stack-ttc2080<br>
 
-Harjoitustehtäväpisteet:   137<br>
+Harjoitustehtäväpisteet:   147<br>
 Kaikki tarjolla olleet harjoitustehtäväpisteet:   164<br>
-137/164 = >  83,5%<br>
+147/164 = >  89,6%<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj1Teht1: 2/2p<br>
 Harj1Teht2: 2/2p<br>
@@ -49,5 +49,10 @@ Harj6Teht2: 5/5p<br> - Tämä loggauksien tallentaminen on itelle jotenkin miele
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj7Teht1: 5/5p<br> -  <br>
 Harj7Teht2: 5/5p<br> -  <br>
-Harj/Teht3: 10/10p<br> -  <br>
+Harj7Teht3: 10/10p<br> -  <br>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Harj8Teht1: 10/10p<br> -  <br>
+Harj8Teht2: 0/10p<br> - Kesken <br>
+Harj8Teht3: 0/5p<br> - Kesken <br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
