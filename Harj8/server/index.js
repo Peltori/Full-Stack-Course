@@ -53,11 +53,23 @@ app.get('/todos/:id', async (request, response) => {
 */
 
 app.delete('/todos/:id', async (request, response) => {
+  const doc = await Todo.findById(request.params.id);
+  if (doc) {
+    await doc.deleteOne()
+    response.json(doc)
+  }
+  else response.status(404).end()
+})
+
+/*
+Old mongoose version, this doesn't work with mongoose 8
+app.delete('/todos/:id', async (request, response) => {
   const deletedTodo = await Todo.findByIdAndRemove(request.params.id)
   console.log(request.params.id)
   if (deletedTodo) response.json(deletedTodo)
   else response.status(404).end()
 })
+*/
 
 // app listen port 3000
 app.listen(port, () => {
