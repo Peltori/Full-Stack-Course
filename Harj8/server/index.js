@@ -53,9 +53,10 @@ app.get('/todos/:id', async (request, response) => {
 */
 
 app.delete('/todos/:id', async (request, response) => {
-    const deletedTodo = await Todo.findByIdAndRemove(request.params.id)
-    if (deletedTodo) response.json(deletedTodo)
-    else response.status(404).end()
+  const deletedTodo = await Todo.findByIdAndRemove(request.params.id)
+  console.log(request.params.id)
+  if (deletedTodo) response.json(deletedTodo)
+  else response.status(404).end()
 })
 
 // app listen port 3000
