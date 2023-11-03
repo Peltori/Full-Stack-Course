@@ -30,7 +30,7 @@ async function renderHouses() {
     sizeLabel.htmlFor = "under-200m2";
     sizeLabel.textContent = "Alle 200m2";
 
-    //addu under 1 000 000 euro
+    //add under 1 000 000 euro
     let priceCheckbox = document.createElement("input");
     priceCheckbox.type = "checkbox";
     priceCheckbox.id = "under-1000000";
@@ -62,7 +62,9 @@ async function renderHouses() {
         let houses = document.querySelectorAll(".houseContainer");
         houses.forEach(house => {
             let size = parseFloat(house.querySelector(".houseSize").textContent);
-            let price = parseFloat(house.querySelector(".price").textContent);
+            let priceText = house.querySelector(".price").textContent;
+            // remove whitespaces and convert string to float
+            let price = parseFloat(priceText.replace(/\s/g, ''));
     
             // check prize and size before showing houses
             if (sizeChecked && priceChecked) {
@@ -90,6 +92,38 @@ async function renderHouses() {
     }
 
 
+    /*
+    This did not work for sorting the under 1 000 000 priced houses
+    let houses = document.querySelectorAll(".houseContainer");
+    houses.forEach(house => {
+        let size = parseFloat(house.querySelector(".houseSize").textContent);
+        let price = parseFloat(house.querySelector(".price").textContent);
+
+        // check prize and size before showing houses
+        if (sizeChecked && priceChecked) {
+            if (size < 200 && price < 1000000) {
+                house.style.display = "";
+            } else {
+                house.style.display = "none";
+            }
+        } else if (sizeChecked) {
+            if (size < 200) {
+                house.style.display = "";
+            } else {
+                house.style.display = "none";
+            }
+        } else if (priceChecked) {
+            if (price < 1000000) {
+                house.style.display = "";
+            } else {
+                house.style.display = "none";
+            }
+        } else {
+            house.style.display = "";
+        }
+    });
+}
+*/
     // loop through your JSON data
     houses.forEach(house => {
         
