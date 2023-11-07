@@ -3,9 +3,9 @@ FullStack-ohjelmointi: Harjoitustehtäväväkirjanpito<br>
 Peltomaa Petri [AC7995]<br>
 Ratkaisut: https://gitlab.labranet.jamk.fi/AC7995/full-stack-ttc2080<br>
 
-Harjoitustehtäväpisteet:   157<br>
+Harjoitustehtäväpisteet:   162<br>
 Kaikki tarjolla olleet harjoitustehtäväpisteet:   164<br>
-157/164 = >  95,7%<br>
+162/164 = >  98,7%<br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj1Teht1: 2/2p<br>
 Harj1Teht2: 2/2p<br>
@@ -54,5 +54,5 @@ Harj7Teht3: 10/10p<br> -  <br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Harj8Teht1: 10/10p<br> -  <br>
 Harj8Teht2: 10/10p<br> -  <br>
-Harj8Teht3: 0/5p<br> - Kesken <br>
+Harj8Teht3: 5/5p<br> - Tosiaan en saanut toimimaan muuta kuin omalla lokaaliverkolla <br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
