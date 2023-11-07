@@ -65,7 +65,7 @@
 
     sudo /etc/apache2/sites-available/000-default.conf
 
-![](/Kuvat/Harj8_teht3_apache4.png)
+![](/Kuvat/Harj8_teht3_apache4.png)<br>
 Tämä siis toimii ainoastaan vain lokaalisti eikä muualta pääse tähän kiinni, koska<br>
 cors estää pääsyn muualta vaikka avasinkin vaadittavat portit ym
 
