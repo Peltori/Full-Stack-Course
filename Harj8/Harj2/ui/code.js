@@ -39,7 +39,7 @@ function createTodoListItem(todo) {
     // add the text node to SPAN edit element
     spanEdit.appendChild(edit)
     // add event listener to SPAN edit element, onclick event to call editTodo function with the unique id and text
-    spanEdit.onclick = function() { editTodo(todo._id, todo.text) }
+    spanEdit.onclick = function() { updateTodo(todo._id, todo.text) }
     // add SPAN element to LI element
     li.appendChild(spanEdit)
     // create a new SPAN element, x char -> delete todo
@@ -115,7 +115,8 @@ async function removeTodo(id) {
     }
 }
 
-async function editTodo(id, text) {
+// update todo function
+async function updateTodo(id, text) {
   const inputField = document.getElementById('newTodo')
   const saveButton = document.getElementById('addButton')
   saveButton.innerText = 'Save';
@@ -132,7 +133,7 @@ async function editTodo(id, text) {
       },
       body: JSON.stringify(data)
     })
-    
+    // reload the page after update
     location.reload()
     // reset the input field and save button text
     inputField.value = ''
