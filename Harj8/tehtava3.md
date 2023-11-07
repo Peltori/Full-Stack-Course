@@ -68,3 +68,14 @@
 ![](/Kuvat/Harj8_teht3_apache4.png)
 Tämä siis toimii ainoastaan vain lokaalisti eikä muualta pääse tähän kiinni, koska<br>
 cors estää pääsyn muualta vaikka avasinkin vaadittavat portit ym
+
+
+### Tässä vielä toiminnallisuus omalla sisäisellä ip osoitteella
+
+![](/Kuvat/Harj8_teht3_toiminnallisuus.png)
+
+![](/Kuvat/Harj8_teht3_toiminnallisuus2.png)
+
+![](/Kuvat/Harj8_teht3_toiminnallisuus3.png)
+
+![](/Kuvat/Harj8_teht3_toiminnallisuus4.png)
