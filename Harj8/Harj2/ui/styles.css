@@ -38,8 +38,13 @@ button {
     cursor: pointer;
 }
  
- .delete {
+.delete {
     cursor: pointer;
     color: red;
+    font-weight: bold;
+}
+.edit {
+    cursor: pointer;
+    color: blue;
     font-weight: bold;
 }

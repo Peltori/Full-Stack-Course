@@ -29,7 +29,7 @@ const todoSchema = new mongoose.Schema({
 // model
 const Todo = mongoose.model('Todo', todoSchema, 'todos')
   
-// Routes here...
+// Routes
 app.post('/todos', async (request, response) => {
     const { text } = request.body
     const todo = new Todo({
@@ -59,9 +59,7 @@ app.put('/todos/:id', async (request, response) => {
     const { text } = request.body
     doc.text = text
     const savedTodo = await doc.save()
-    response.json(savedTodo)  
-  //  await doc.updateOne()
-  //  response.json(doc)
+    response.json(savedTodo)
   }
   else response.status(404).end()
 })
