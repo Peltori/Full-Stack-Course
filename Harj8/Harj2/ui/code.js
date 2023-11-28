@@ -66,7 +66,7 @@ function createTodoListItem(todo) {
 function showTodos(todos) {
   let todosList = document.getElementById('todosList')
   let infoText = document.getElementById('infoText')
-  // if no todos then display text "No todos"
+  // if no todos then display text "No todos" to user
   if (todos.length === 0) {
     infoText.innerHTML = 'No Todos'
   } else {    
