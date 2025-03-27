@@ -1,7 +1,8 @@
+This was done at JAMK on my 2nd year of studies
+
 FullStack-ohjelmointi: Harjoitustehtäväväkirjanpito<br>
 30.8.2023<br>
 Peltomaa Petri [AC7995]<br>
-Ratkaisut: https://gitlab.labranet.jamk.fi/AC7995/full-stack-ttc2080<br>
 
 Harjoitustehtäväpisteet:   162<br>
 Kaikki tarjolla olleet harjoitustehtäväpisteet:   164<br>
